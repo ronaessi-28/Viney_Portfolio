@@ -27,15 +27,17 @@ const stats: Stat[] = [
   },
   {
     icon: Award,
-    value: 8,
+    value: 20,
     label: "Certifications",
     suffix: "+",
+    link: "https://drive.google.com/drive/folders/18EEpo6z3Us6aklFrU-ikhOGIGzHUNhzw?usp=drive_link",
   },
   {
     icon: Users,
     value: 4,
     label: "Major Projects",
     suffix: "",
+    link: "#projects",
   },
 ];
 

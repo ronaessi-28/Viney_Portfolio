@@ -50,19 +50,24 @@ const Hero = () => {
             <Button variant="hero" size="lg" asChild>
               <a href="#projects">
                 <Code2 className="mr-2" />
-                View Projects
+                Major Projects
               </a>
             </Button>
             <Button variant="outline" size="lg" asChild>
-              <a href="#certifications">
+              <a href="https://drive.google.com/drive/folders/18EEpo6z3Us6aklFrU-ikhOGIGzHUNhzw?usp=drive_link" target="_blank" rel="noopener noreferrer">
                 <Award className="mr-2" />
-                View Certifications
+                20+ Certifications
               </a>
             </Button>
             <Button variant="outline" size="lg" asChild>
               <a href="#contact">
                 <Mail className="mr-2" />
                 Contact Me
+              </a>
+            </Button>
+            <Button variant="outline" size="lg" asChild>
+              <a href="/viney_resume.pdf" download="Viney_Chhillar_Resume.pdf">
+                Download Resume
               </a>
             </Button>
           </div>

@@ -27,7 +27,7 @@ const experiences: Experience[] = [
 
 const WorkExperience = () => {
   return (
-    <section className="py-20 px-6 bg-card/30">
+    <section id="work-experience" className="py-20 px-6 bg-card/30">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-accent bg-clip-text text-transparent">
@@ -55,7 +55,14 @@ const WorkExperience = () => {
                       <div>
                         <CardTitle className="text-2xl">{exp.title}</CardTitle>
                         <CardDescription className="text-lg font-semibold text-foreground/80 mt-1">
-                          {exp.company}
+                          <a 
+                            href="https://www.zaalima.in/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-primary transition-colors hover:underline"
+                          >
+                            {exp.company}
+                          </a>
                         </CardDescription>
                       </div>
                     </div>
