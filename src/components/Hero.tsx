@@ -41,7 +41,7 @@ const Hero = () => {
           <p className="text-lg mb-8 text-foreground/80 max-w-3xl mx-auto leading-relaxed animate-slide-up delay-200">
             I'm a B.Tech Computer Science student passionate about solving problems through code. 
             From secure backend systems to real-time web apps, I build scalable solutions using modern stacks 
-            like MERN, Next.js, and Python. I also believe in continuous learning — backed by verifiable 
+            like MERN, Next.js, Java, and Python. I also believe in continuous learning — backed by verifiable 
             certifications and real-world projects.
           </p>
 
