@@ -72,7 +72,7 @@ const AnimatedCounter = ({ target, suffix }: { target: number; suffix: string })
 
 const Achievements = () => {
   return (
-    <section className="py-20 px-6">
+    <section id="achievements" className="py-20 px-6">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-accent bg-clip-text text-transparent">
