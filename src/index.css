@@ -8,41 +8,41 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 220 20% 97%;
-    --foreground: 220 20% 15%;
+    --background: 40 30% 96%;
+    --foreground: 30 15% 25%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 220 20% 15%;
+    --card: 40 40% 98%;
+    --card-foreground: 30 15% 25%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 20% 15%;
+    --popover: 40 40% 98%;
+    --popover-foreground: 30 15% 25%;
 
-    --primary: 262 83% 58%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 25 75% 55%;
+    --primary-foreground: 40 40% 98%;
 
-    --secondary: 199 89% 48%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 35 65% 65%;
+    --secondary-foreground: 30 15% 25%;
 
-    --muted: 220 15% 92%;
-    --muted-foreground: 220 15% 45%;
+    --muted: 40 20% 90%;
+    --muted-foreground: 30 10% 45%;
 
-    --accent: 280 85% 65%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 20 70% 60%;
+    --accent-foreground: 40 40% 98%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 40 40% 98%;
 
-    --border: 220 15% 88%;
-    --input: 220 15% 88%;
-    --ring: 262 83% 58%;
+    --border: 40 20% 88%;
+    --input: 40 20% 88%;
+    --ring: 25 75% 55%;
 
     --radius: 0.75rem;
 
     /* Custom design tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(262 83% 58%), hsl(199 89% 48%));
-    --gradient-accent: linear-gradient(90deg, hsl(262 83% 58%), hsl(280 85% 65%), hsl(199 89% 48%));
-    --glow-cyan: 0 0 25px hsl(199 89% 48% / 0.3);
-    --glow-blue: 0 0 30px hsl(262 83% 58% / 0.25);
+    --gradient-primary: linear-gradient(135deg, hsl(25 75% 55%), hsl(35 65% 65%));
+    --gradient-accent: linear-gradient(90deg, hsl(25 75% 55%), hsl(20 70% 60%), hsl(35 65% 65%));
+    --glow-cyan: 0 0 25px hsl(25 75% 55% / 0.3);
+    --glow-blue: 0 0 30px hsl(35 65% 65% / 0.25);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
